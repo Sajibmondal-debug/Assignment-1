@@ -57,4 +57,16 @@ nav ul li {
     padding: 17px 34px;
     border: none;
 }
-
+/* Vision style */
+ .vision{
+    font-weight: bold;
+    font-size: 40px;
+    color: #0E0E0E;
+    max-width: 1280px;
+    height: 48px;
+ }
+ .section-description{
+    font-size: 16px;
+    max-width: 1280px;
+    color: #0E0E0E;
+ }
