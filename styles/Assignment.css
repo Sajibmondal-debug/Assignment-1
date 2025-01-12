@@ -18,9 +18,27 @@ nav{
 nav ul {
     display: flex;
 }
-nav ul li {
+nav ul 
+li {
     list-style: none;
 
+}
+/* younus style */
+.younus{
+    background-image: url(../images/quote-bg.png);
+    background-repeat: no-repeat;
+    max-width: 1232px;
+    height: 96px;
+}
+.you-2{
+    font-weight: 600px;
+    font-size: 20px;
+    color: #0E0E0E;
+}
+.you-3{
+    font-weight: normal;
+    font-size: 16px;
+    color: #0E0E0E;
 }
 /* banner styles */
 .banner{
@@ -48,6 +66,33 @@ nav ul li {
     color: #0E0E0E;
 }
 /* button styles */
+.btn-2{
+    width: 122px;
+    height: 41px;
+    color: #FFFFFF;
+    background-color:  #5490F5;
+    padding: 11px 20px;
+    border-radius: 8px;
+    border: none;
+}
+.btn-3{
+    width: 122px;
+    height: 41px;
+    color: #FFFFFF;
+    background-color: #09A15C;
+    padding: 11px 20px;
+    border-radius: 8px;
+    border: none;
+}
+.btn-4{
+    width: 122px;
+    height: 41px;
+    color: #FFFFFF;
+    background-color: #FFC239;
+    padding: 11px 20px;
+    border-radius: 8px;
+    border: none;
+}
 .btn-primary{
     background-color: #006A50;
     font-weight: 600;
@@ -70,3 +115,107 @@ nav ul li {
     max-width: 1280px;
     color: #0E0E0E;
  }
+ .vision-container{
+    padding: 32px 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+
+ }
+ .vision-1{
+    width: 410px;
+    height: 325px;
+  background-color:#C6E4D6;
+  padding: 32px 32px;
+ 
+ }
+ .vision-2{
+    background-color: #C6E4D6;
+    width: 410px;
+    height: 325px;
+    padding: 32px 32px;
+ }
+ .vision-3{
+    background-color: #F7EBCF;
+    width: 410px;
+    height: 325px;
+    padding: 32px 32px;
+ }
+ .vision-title{
+    font-weight: bold;
+    font-size: 20px;
+    width: 24px 346px;
+    color: #0E0E0E;
+    line-height: normal;
+ }
+ .vision-description{
+    font-weight: normal;
+    font-size: medium;
+    width: 70px 346px;
+ }
+ /* News styles */
+ .news-title-1{
+    font-weight: bold;
+    font-size: 40px;
+    color: #0E0E0E;
+    max-width: 1280px;
+    height: 48px;
+ }
+ .news-description-1{
+    font-weight: normal;
+    font-size: 16px;
+    color: #0E0E0E;
+ }
+ 
+ .news-container{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+
+ }
+ .content-title{
+    font-weight: bold;
+    font-size: 32px;
+    color: #0E0E0E;
+ }
+ .news-logo-1{
+    width: 134px;
+    height: 40px;
+    justify-content: space-between ;
+    display: flex;
+ }
+ 
+
+ .content-description{
+    font-size: 16px;
+    font-weight: normal;
+    max-width: 744px;
+    height: 72px;
+    color: #0E0E0E;
+ }
+ .news-image{
+    max-width: 408px; height: 306px;
+    border-radius: 24px;
+    overflow: unset;
+ }
+ .news-image-2{
+    display: flex;
+    align-items: center;
+ }
+ 
+ .btn-n{
+    background-color: #006A50;
+    padding:  13px 26px;
+    border: none; border-radius: 8px;
+    gap: 48px;
+    font-size: 18px;
+    color: #FFFFFF;
+    font-weight: 87px;
+ }
+
+
+
+
+
+
+ 
